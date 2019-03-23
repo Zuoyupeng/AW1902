@@ -15,6 +15,7 @@ public class MainActivity extends GatewayBaseActivity {
 
     AWTextView textView;
     AWEditText editText;
+
     AWButton awButton,awBtnWeb;
 
     @Override

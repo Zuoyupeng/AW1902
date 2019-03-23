@@ -2,14 +2,6 @@ apply plugin: 'com.android.application'
 def supportLibraryVersion   = "28.0.0"
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'keystore'
-            keyPassword 'mm12348765'
-            storeFile file('app_keystore.jks')
-            storePassword 'mm12348765'
-        }
-    }
     compileSdkVersion 28
     buildToolsVersion '28.0.2'
     defaultConfig {
@@ -30,10 +22,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
         }
         debug {
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
         }
     }
     dexOptions {

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_list_items">
+        <item>SDK Manager APIs</item>
+        <item>Secure App Info</item>
+        <item>Authentication</item>
+        <item>Passcode</item>
+        <item>Certificate Management</item>
+        <item>Analytics</item>
+		<item>Clear App Data Test</item>
+		<item>SSO Session Info</item>
+		<item>Profile Group Updates</item>
+		<item>Factory Reset Device</item>
+		<item>Remove Profile Group</item>
+		<item>Reboot Device</item>
+		<item>Logging</item>
+        <item>App Public Key</item>
+        <item>Application Configuration</item>
+        <item>Auto Enroll API</item>
+    </string-array>
+
+    <string-array name="framework_main_list_items">
+        <item>Key Manager</item>
+        <item>Key Manager:-File</item>
+        <item>App Secure Preferences</item>
+        <item>SDK Secure Preferences</item>
+        <item>Proxy Tunneling WebView/Http/URL/OKHTTP</item>
+        <item>Proxy Tunneling AWWebView/AWBaseGatewayStatusListener</item>
+        <item>SDK Configurations Fetch</item>
+        <item>Framework UI</item>
+        <item>QR Reader</item>
+        <item>Rooted Check</item>
+        <item>Feedback</item>
+        <item>App Data Usage</item>
+        <item>OEM Service Methods</item>
+        <item>Network Utilities</item>
+        <item>Integrated Auth Activity</item>
+        <item>Managed Chain Activity</item>
+        <item>Device Unique Id</item>
+        <item>Push Notifications</item>
+        <item>DLP</item>
+        <item>MDMStatus</item>
+    </string-array>
+
+    <string-array name="permissions_list_items">
+        <item>READ_CALENDAR</item>
+        <item>WRITE_CALENDAR</item>
+        <item>CAMERA</item>
+        <item>READ_CONTACTS</item>
+        <item>WRITE_CONTACTS</item>
+        <item>ACCESS_FINE_LOCATION</item>
+        <item>ACCESS_COARSE_LOCATION</item>
+        <item>RECORD_AUDIO</item>
+        <item>READ_PHONE_STATE</item>
+        <item>CALL_PHONE</item>
+        <item>READ_CALL_LOG</item>
+        <item>WRITE_CALL_LOG</item>
+        <item>USE_SIP</item>
+        <item>PROCESS_OUTGOING_CALLS</item>
+        <item>ADD_VOICEMAIL</item>
+        <item>SEND_SMS</item>
+        <item>RECEIVE_SMS</item>
+        <item>READ_SMS</item>
+        <item>RECEIVE_WAP_PUSH</item>
+        <item>RECEIVE_MMS</item>
+        <item>READ_CELL_BROADCAST</item>
+        <item>CALENDER GROUP</item>
+        <item>CAMERA GROUP</item>
+        <item>CONTACT GROUP</item>
+        <item>LOCATION GROUP</item>
+        <item>MICROPHONE GROUP</item>
+        <item>PHONE GROUP</item>
+        <item>SMS GROUP</item>
+        <item>STORAGE GROUP</item>
+    </string-array>
+	<string-array name="authentication_types">
+        <item>None</item>
+        <item>Username and Password</item>
+        <item>Passcode</item>
+    </string-array>
+
+    <string-array name="logging_levels">
+        <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+    </string-array>
+
+    <string-array name="ui_main_list_items">
+        <item>UI Elements</item>
+        <item>Open Source License</item>
+        <item>About</item>
+
+    </string-array>
+
+    <string-array name="dialog_list_items">
+        <item>Basic(To Title)</item>
+        <item>Basic</item>
+        <item>Basic(Dark Theme)</item>
+        <item>Basic(Icon)</item>
+        <item>Multi Colored</item>
+        <item>positive Button</item>
+        <item>Neutral Button</item>
+        <item>Custom View</item>
+        <item>Custom Theme</item>
+        <item>Stacked buttons 1</item>
+        <item>Additional Info</item>
+    </string-array>
+
+    <string-array name="ui_list_items">
+        <item>Text View</item>
+        <item>Edit Text</item>
+        <item>AutoCompleteTextView</item>
+        <item>Button</item>
+        <item>Check Box</item>
+    </string-array>
+
+    <string-array name="api_list_items">
+        <item>API Version</item>
+        <item>Device UID</item>
+        <item>Server Name</item>
+        <item>Group ID</item>
+        <item>Authentication Type</item>
+        <item>Authenticate User</item>
+        <item>Is Passcode Required</item>
+        <item>Passcode Complexity</item>
+        <item>Min Passcode Length</item>
+        <item>Min Complex Char Length</item>
+        <item>Maximum Passcode Age</item>
+        <item>Is Compliant</item>
+        <item>Is Compromised</item>
+        <item>Is Enterprise</item>
+        <item>Bluetooth Allowed</item>
+        <item>Camera Allowed</item>
+        <item>Offline Mode Allowed</item>
+        <item>Prevent Copy and Cut</item>
+        <item>Wifi SSID Allowed</item>
+        <item>Application Profile ID</item>
+        <item>Application Profile Name</item>
+        <item>Is SSO Session Valid</item>
+        <item>Is SSO Enabled</item>
+        <item>SSO Grace Period</item>
+        <item>Anchor Type</item>
+        <item>Console Version</item>
+        <item>Profile Groups</item>
+        <item>Last Checkin Time</item>
+        <item>Allowed WiFi SSID</item>
+        <item>SSO Status</item>
+    </string-array>
+
+    <string-array name="secure_app_info_list_items">
+        <item>Enrollment Username</item>
+        <item>Enrollment Password</item>
+        <item>HMAC Token</item>
+        <item>HMAC Token Reregister</item>
+        <item>User ID</item>
+    </string-array>
+
+</resources>

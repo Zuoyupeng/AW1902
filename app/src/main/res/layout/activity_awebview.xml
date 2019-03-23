@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="60dp"
+            android:hint="企业部署Tunnel后，可以访问内网地址"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/go_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="GO"
+            />
+    </RelativeLayout>
+
+    <com.airwatch.gateway.clients.AWWebView
+        android:id="@+id/aw_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dataCollectionLevel="deviceData"
+        android:layout_below="@+id/ll_top"/>
+</RelativeLayout>

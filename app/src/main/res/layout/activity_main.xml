@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.aw1802.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.airwatch.ui.widget.AWEditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.airwatch.ui.widget.AWTextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.airwatch.ui.widget.AWButton
+            android:id="@+id/btn_console"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="console information"/>
+        <com.airwatch.ui.widget.AWButton
+            android:id="@+id/btn_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="web tunnel"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

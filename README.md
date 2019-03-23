@@ -6,4 +6,8 @@ WSO-SDK-1902版-中文集成文档：
 链接：https://pan.baidu.com/s/1RNAoFecdmAP6My8V4wiKBQ
 提取码：5311
 
+sample apk：
+链接：https://pan.baidu.com/s/1grHqSOJnuNTRvbTJm7-odw 
+提取码：qwjo
+
 请参照集成文档和sample代码集成

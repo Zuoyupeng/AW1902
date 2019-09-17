@@ -10,8 +10,30 @@
 
     <style name="SDKBaseTheme" parent="Theme.AppCompat.Light">
         // Replace with your own app specific resources to have branding
-        <item name="awsdkSplashBrandingIcon">@drawable/alipay_msp_faceid</item>
-        <item name="awsdkLoginBrandingIcon">@drawable/alipay_msp_faceid</item>
-        <item name="awsdkApplicationColorPrimary">@color/color_awsdk_login_primary</item>
+        <item name="awsdkSplashBrandingIcon">@drawable/aw</item>
+        <item name="awsdkLoginBrandingIcon">@drawable/icon96_2</item>
+        <item name="awsdkApplicationColorPrimary">@color/awsdk_yellow</item>
+    </style>
+
+    <style name="SDKSplashTheme" parent="SimplifiedEnrollmentLoginTheme">
+        <item name="colorPrimary">@color/awsdk_colorPrimary</item>
+        <!--<item name="colorPrimaryDark">@color/awsdk_colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/awsdk_colorAccent</item>
+        <item name="colorControlHighlight">@color/awsdk_colorControlHighlight</item>
+        <item name="alertDialogTheme">@style/SimplifiedEnrollmentDialogTheme</item>
+        <item name="dialogTheme">@style/SimplifiedEnrollmentDialogTheme</item>
+        <item name="android:windowBackground">@color/awsdk_wsblue</item>
+    </style>
+
+    <style name="SDKBaseTheme.Login" parent="SDKBaseTheme">
+        <item name="awsdkStatusBarColor">@color/awsdk_se_statusbar_color</item>
+        <item name="awsdkColorPrimary">@color/awsdk_se_toolbar_color</item>
+        <item name="awsdkColorAccent">@color/awsdk_se_accent_color</item>
+        <item name="awsdkTextColorPrimary">@color/awsdk_se_primary_text_color</item>
+        <item name="awsdkTextColorInactive">@color/awsdk_se_inactive</item>
+        <item name="awsdkWindowBackground">@color/awsdk_se_background_color</item>
+        <item name="awsdkColorControlNormal">@color/awsdk_se_inactive</item>
+        <item name="awsdkColorControlHighlight">@color/awsdk_se_ripple_color</item>
+        <item name="awsdkTextColorHighlight">@color/awsdk_se_ripple_color</item>
     </style>
 </resources>

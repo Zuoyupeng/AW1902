@@ -12,8 +12,9 @@ import com.airwatch.gateway.clients.AWWebViewClient;
 import com.airwatch.gateway.ui.GatewayBaseActivity;
 import com.airwatch.sdk.AirWatchSDKException;
 import com.airwatch.sdk.SDKManager;
+import com.demo.aw1802.watermark.BaseActivity;
 
-public class AWebviewActivity extends GatewayBaseActivity {
+public class AWebviewActivity extends BaseActivity {
 
     SDKManager awSDKManager = null;
     boolean serviceError = false;

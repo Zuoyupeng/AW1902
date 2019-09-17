@@ -9,13 +9,14 @@ import com.airwatch.sdk.SDKManager;
 import com.airwatch.sdk.SecureAppInfo;
 import com.airwatch.sdk.profile.PasscodePolicy;
 import com.airwatch.sdk.profile.RestrictionPolicy;
+import com.demo.aw1802.watermark.BaseActivity;
 
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ConsoleActivity extends SDKBaseActivity {
+public class ConsoleActivity extends BaseActivity {
 
     SDKManager awSDKManager = null;
     boolean serviceError = false;
